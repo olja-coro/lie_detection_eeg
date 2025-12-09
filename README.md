@@ -5,7 +5,7 @@ This project implements the baseline method from Li et al., Entropy 2025 for EEG
 
 ## Method Summary
 
-### Dataset: 27 subjects, 5 EEG channels (AF3, T7, PZ, T8, AF4), 50 trials per subject, available to download https://data.mendeley.com/datasets/5gzxb2bzs2/2
+### Dataset: 27 subjects, 5 EEG channels (AF3, T7, PZ, T8, AF4), 50 trials per subject, available to download https://data.mendeley.com/datasets/5gzxb2bzs2/2. We are using  the bandpass-filtered data(like in the paper).
 
 ### Features:
 
@@ -22,3 +22,7 @@ This project implements the baseline method from Li et al., Entropy 2025 for EEG
  - Subject-dependent (LOOCV & 10-fold)
 
  - Cross-subject (Leave-One-Subject-Out)
+
+# to use the notebooks you need to:
+ 1. Download the dataset (https://data.mendeley.com/datasets/5gzxb2bzs2/2) and put it into data folder
+ 2. run src/preprocessing.py
