@@ -5,7 +5,7 @@ This project implements the baseline method from Li et al., Entropy 2025 for EEG
 
 ## Method Summary
 
-### Dataset: 27 subjects, 5 EEG channels (AF3, T7, PZ, T8, AF4), 50 trials per subject
+### Dataset: 27 subjects, 5 EEG channels (AF3, T7, PZ, T8, AF4), 50 trials per subject, available to download https://data.mendeley.com/datasets/5gzxb2bzs2/2
 
 ### Features:
 
