@@ -39,7 +39,12 @@ def create_slices(channel_data, m):
 
 
 @njit
-def fuzzy_entropy(channel_data, m=2, n=2, r=0.15):
+def fuzzy_entropy(
+    channel_data: NDArray[np.float64],
+    r: float,
+    m: int = 2,
+    n: int = 2
+):
     def phi(pattern_length):
         slices = create_slices(channel_data, pattern_length)
         K = slices.shape[0]
@@ -61,14 +66,12 @@ def fuzzy_entropy(channel_data, m=2, n=2, r=0.15):
 
 @njit(parallel=True)
 def tsmfe_features(
-    channel_data: np.ndarray, # Numba preferisce tipi espliciti o inferiti, qui è ok
+    channel_data: NDArray[np.float64], # Numba preferisce tipi espliciti o inferiti, qui è ok
+    r: float,
     k_max: int = 10,
     m: int = 2,
     n: int = 2,
-    r_factor: float = 0.15
 ):    
-    r = np.std(channel_data).item() * r_factor
-    
     final_results = np.empty(k_max, dtype=np.float64)
 
     for i in prange(k_max):
@@ -79,7 +82,7 @@ def tsmfe_features(
         for k in range(tau):
             sub_signal = channel_data[k::tau]
             
-            en_val = fuzzy_entropy(sub_signal, m, n, r)
+            en_val = fuzzy_entropy(sub_signal, r, m, n)
             
             if np.isnan(en_val) or np.isinf(en_val):
                 val = 0.0
@@ -95,9 +98,9 @@ def tsmfe_features(
 
 def hmfe_features(
     channel_data: NDArray[np.float64],
+    r: float,
     m: int = 2,
     n: int = 2,
-    r_factor: float = 0.15
 ):
     # x = np.asarray(x, dtype=float)
     # N = x.shape[0]
@@ -171,7 +174,10 @@ def extract_sigle_channel_features(
     n: int = 2,
     r_factor: float = 0.15
 ):
-    feat_tsmfe = tsmfe_features(channel_data, k_max, m, n, r_factor)    
-    feat_hmfe = hmfe_features(channel_data, m, n, r_factor)
+    r = np.std(channel_data).item() * r_factor
+
+    fe = fuzzy_entropy(channel_data, r, m, n)
+    tsmfe = tsmfe_features(channel_data, r, k_max, m, n)    
+    hmfe = hmfe_features(channel_data, r, m, n)
     
-    return np.concatenate((feat_tsmfe, feat_hmfe))
+    return np.concatenate(([fe], tsmfe, hmfe))
