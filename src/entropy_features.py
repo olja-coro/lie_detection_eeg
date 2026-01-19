@@ -1,4 +1,5 @@
 import numpy as np
+import pywt
 from numpy.typing import NDArray
 from numba import njit, prange
 from math import exp, log
@@ -95,7 +96,7 @@ def tsmfe_features(
     
     return final_results
 
-
+'''
 def hmfe_features(
     channel_data: NDArray[np.float64],
     r: float,
@@ -165,9 +166,82 @@ def hmfe_features(
 
     # return np.asarray(fe_bands, dtype=float)
     return [0] * 20
+'''
+
+"""
+    Hierarchical Multi-Band Fuzzy Entropy (HMFE)
+
+    Output:
+        [ FE(A_L), FE(D_L), FE(D_{L-1}), ..., FE(D_1) ]
+        -> length = level + 1
+"""
+
+def hmfe_features(
+    channel_data: np.ndarray,
+    r: float,
+    m: int = 2,
+    n: int = 2,
+    wavelet: str = "db4",
+    level: int = 4
+) -> np.ndarray:
+
+    x = np.asarray(channel_data, dtype=np.float64)
+    N = x.shape[0]
+
+    # sicurezza
+    if N <= m + 1:
+        return np.zeros(level + 1, dtype=np.float64)
+
+    std_x = np.std(x)
+    if std_x <= 0:
+        std_x = 1e-8
+
+    if r <= 0 or not np.isfinite(r):
+        r = 0.15 * std_x
+
+    # DWT
+    coeffs = pywt.wavedec(x, wavelet=wavelet, level=level, mode="symmetric")
+    cA = coeffs[0]          # A_L
+    details = coeffs[1:]   # [D_L, D_{L-1}, ..., D_1]
+
+    def reconstruct_band(keep_approx, detail_idx=None):
+        new_coeffs = []
+        # Approximation
+        new_coeffs.append(cA if keep_approx else np.zeros_like(cA))
+        # Details
+        for i, cd in enumerate(details):
+            if (not keep_approx) and (i == detail_idx):
+                new_coeffs.append(cd)
+            else:
+                new_coeffs.append(np.zeros_like(cd))
+        rec = pywt.waverec(new_coeffs, wavelet=wavelet, mode="symmetric")
+        return rec[:N]
+
+    hmfe_vals = []
+
+    # A_L
+    xA = reconstruct_band(True)
+    std_A = np.std(xA)
+    if std_A <= 0:
+        std_A = 1e-8
+    rA = r * (std_A / std_x)
+    feA = fuzzy_entropy(xA, rA, m, n)
+    hmfe_vals.append(0.0 if not np.isfinite(feA) else feA)
+
+    # D_L ... D_1
+    for idx in range(len(details)):
+        xD = reconstruct_band(False, idx)
+        std_D = np.std(xD)
+        if std_D <= 0:
+            std_D = 1e-8
+        rD = r * (std_D / std_x)
+        feD = fuzzy_entropy(xD, rD, m, n)
+        hmfe_vals.append(0.0 if not np.isfinite(feD) else feD)
+
+    return np.asarray(hmfe_vals, dtype=np.float64)
 
 
-def extract_sigle_channel_features(
+def extract_single_channel_features(
     channel_data,
     k_max: int = 10,
     m: int = 2,
