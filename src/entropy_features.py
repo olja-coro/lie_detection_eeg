@@ -67,7 +67,7 @@ def fuzzy_entropy(
 
 @njit(parallel=True)
 def tsmfe_features(
-    channel_data: NDArray[np.float64], # Numba preferisce tipi espliciti o inferiti, qui è ok
+    channel_data: NDArray[np.float64], #Numba prefers explicit or inferred types, here it's okay
     r: float,
     k_max: int = 10,
     m: int = 2,
@@ -76,7 +76,7 @@ def tsmfe_features(
     final_results = np.empty(k_max, dtype=np.float64)
 
     for i in prange(k_max):
-        tau = i + 1  # La scala attuale (da 1 a k_max)
+        tau = i + 1  #current scale (from 1 to k_max)
 
         current_tau_sum = 0.0
 
@@ -96,85 +96,6 @@ def tsmfe_features(
     
     return final_results
 
-'''
-def hmfe_features(
-    channel_data: NDArray[np.float64],
-    r: float,
-    m: int = 2,
-    n: int = 2,
-):
-    # x = np.asarray(x, dtype=float)
-    # N = x.shape[0]
-    # if N <= m + 1:
-    #     # Not enough data
-    #     return np.zeros(level + 1, dtype=float)
-
-    # std_x = np.std(x)
-    # if std_x == 0:
-    #     std_x = 1e-8
-    # r_base = r_factor * std_x
-
-    # # DWT decomposition
-    # coeffs = pywt.wavedec(x, wavelet=wavelet, level=level)
-    # # coeffs[0] = cA_L
-    # # coeffs[1] = cD_L, coeffs[2] = cD_{L-1}, ..., coeffs[level] = cD_1
-    # cA = coeffs[0]
-    # details = coeffs[1:]
-
-    # fe_bands = []
-
-    # # Helper to reconstruct with only one band non-zero
-    # def _reconstruct_band(keep_approx: bool, detail_index: int | None) -> np.ndarray:
-    #     """
-    #     keep_approx: True for A_L band, False for detail bands
-    #     detail_index: index into 'details' (0..level-1) when keep_approx is False
-    #     """
-    #     new_coeffs = []
-    #     if keep_approx:
-    #         new_coeffs.append(cA.copy())
-    #     else:
-    #         new_coeffs.append(np.zeros_like(cA))
-
-    #     for idx, cd in enumerate(details):
-    #         if (not keep_approx) and (idx == detail_index):
-    #             new_coeffs.append(cd.copy())
-    #         else:
-    #             new_coeffs.append(np.zeros_like(cd))
-
-    #     rec = pywt.waverec(new_coeffs, wavelet=wavelet)
-    #     # waverec can be slightly longer; truncate to original length
-    #     return rec[:N]
-
-    # # 1) Approximation band A_L
-    # xA = _reconstruct_band(keep_approx=True, detail_index=None)
-    # std_A = np.std(xA)
-    # if std_A == 0:
-    #     std_A = 1e-8
-    # r_A = r_base * (std_A / std_x)
-    # fe_A = fuzzy_entropy(xA, m=m, n=n, r=r_A)
-    # fe_bands.append(fe_A)
-
-    # # 2) Detail bands D_L, D_{L-1}, ..., D_1 in this order
-    # for idx in range(len(details)):  # idx = 0..level-1
-    #     xD = _reconstruct_band(keep_approx=False, detail_index=idx)
-    #     std_D = np.std(xD)
-    #     if std_D == 0:
-    #         std_D = 1e-8
-    #     r_D = r_base * (std_D / std_x)
-    #     fe_D = fuzzy_entropy(xD, m=m, n=n, r=r_D)
-    #     fe_bands.append(fe_D)
-
-    # return np.asarray(fe_bands, dtype=float)
-    return [0] * 20
-'''
-
-"""
-    Hierarchical Multi-Band Fuzzy Entropy (HMFE)
-
-    Output:
-        [ FE(A_L), FE(D_L), FE(D_{L-1}), ..., FE(D_1) ]
-        -> length = level + 1
-"""
 
 def hmfe_features(
     channel_data: np.ndarray,
@@ -184,6 +105,13 @@ def hmfe_features(
     wavelet: str = "db4",
     level: int = 4
 ) -> np.ndarray:
+    """
+    Hierarchical Multi-Band Fuzzy Entropy (HMFE)
+
+    Output:
+        [ FE(A_L), FE(D_L), FE(D_{L-1}), ..., FE(D_1) ]
+        -> length = level + 1
+"""
 
     x = np.asarray(channel_data, dtype=np.float64)
     N = x.shape[0]

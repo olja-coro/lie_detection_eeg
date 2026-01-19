@@ -17,7 +17,7 @@ CHANNEL_POINTS = 128 * 3 # 384 points for each experiment
 N_EXPERIMENTS = 25
 PARTECIPANTS = 27
 SESSIONS = 2
-FEATURES_DIM = 1 + 10 # 1 (FE) + 10 (TSMFE)
+FEATURES_DIM = 1 + 10 + 5 # 1 (FE) + 10 (TSMFE) + 5 (HMFE)
 COLS = ["subject", "session", "stimuli_1", "stimuli_2", "is_truth"]
 CHANNELS = ["EEG.AF3", "EEG.T7", "EEG.Pz", "EEG.T8", "EEG.AF4"]
 
