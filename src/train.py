@@ -1,31 +1,91 @@
 import numpy as np
-from preprocess import load_data
+from feature_extraction import load_data
+from typing import Dict, List, Tuple, Any
+import json
+from tqdm import tqdm
+from pathlib import Path
+from sklearn.model_selection import LeaveOneOut, StratifiedKFold, cross_val_score
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
+BASE_DIR = Path(__file__).parent
+RESULTS_DIR = BASE_DIR / "../results"
+RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
-def lda():
-    pass
+CHANNELS = ["EEG.AF3", "EEG.T7", "EEG.Pz", "EEG.T8", "EEG.AF4"]
+N_SUBJECTS = 27
+N_SESSIONS = 2
+N_TRIALS = 25
 
+RANDOM_STATE = 42
 
-def knn():
-    pass
-
-# other algorithms
-
+def load_classifiers() -> Dict[str, object]:
+    # initialize classifiers
+    return {
+        # "SVM_Linear": SVC(kernel="linear", C=1.0),
+        # "SVM_RBF": SVC(kernel="rbf", C=1.0, gamma="scale"),
+        # "kNN_3": KNeighborsClassifier(n_neighbors=3),
+        "kNN_5": KNeighborsClassifier(n_neighbors=5),
+        "NB": GaussianNB(),
+        "LDA": LinearDiscriminantAnalysis(),
+    }
 
 def subject_dependent_experiment():
-    pass
+    X, y = load_data()
+
+    classifiers = load_classifiers()
+
+    out_path = RESULTS_DIR / "subject_dependent_channel_results.json"
+
+    # Cross Validation
+    loo = LeaveOneOut()
+    skf10 = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_STATE)
+    
+    results: List[Dict[str, Any]] = []
+
+    #iterate over subjects and channels
+    for s in range(N_SUBJECTS):
+        for ch_idx, ch_name in tqdm(
+            list(enumerate(CHANNELS)),
+            desc=f"Channels (S{s+1})",
+            leave=False
+        ):
+            X_sc = X[s, :, :, ch_idx, :].reshape(N_SESSIONS * N_TRIALS, -1)
+            y_sc = y[s, :, :].reshape(N_SESSIONS * N_TRIALS).astype(int)
+
+            for clf_name, clf in classifiers.items():
+                # Standardize features for SVM/kNN/LDA stability
+                pipe = Pipeline([
+                    ("scaler", StandardScaler()),
+                    ("clf", clf),
+                ])
+
+                acc_loo = cross_val_score(pipe, X_sc, y_sc, cv=loo, scoring="accuracy").mean()
+                acc_10f = cross_val_score(pipe, X_sc, y_sc, cv=skf10, scoring="accuracy").mean()
+
+                results.append({
+                    "subject": s + 1,
+                    "channel": ch_name,
+                    "classifier": clf_name,
+                    "acc_loocv": acc_loo,
+                    "acc_10fold": acc_10f,
+                })
+
+    save_json(results, out_path)
+    print("Saved JSON to:", out_path.resolve())
+
+def save_json(obj: Dict[str, Any], path: Path):
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(obj, f, indent=2, sort_keys=False)
 
 
 def cross_subject_experiment():
     pass
 
 
-def train():
-    X, y = load_data()
-
-    pass
-
-
-
 if __name__ == '__main__':
-    train()
+    subject_dependent_experiment()
