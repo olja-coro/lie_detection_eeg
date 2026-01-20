@@ -111,10 +111,10 @@ for test_subject in range(27):
 
     model = MLP()
     optimizer = torch.optim.Adam(model.parameters(), lr=LR)
-    criterion = nn.BCEWithLogitsLoss()
+    binaryCrossEntropy = nn.BCEWithLogitsLoss()
 
     for _ in range(EPOCHS):
-        train(model, train_loader, optimizer, criterion)
+        train(model, train_loader, optimizer, binaryCrossEntropy)
 
     acc = evaluate(
         model,
