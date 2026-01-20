@@ -26,9 +26,9 @@ RANDOM_STATE = 42
 def load_classifiers() -> Dict[str, object]:
     # initialize classifiers
     return {
-        # "SVM_Linear": SVC(kernel="linear", C=1.0),
-        # "SVM_RBF": SVC(kernel="rbf", C=1.0, gamma="scale"),
-        # "kNN_3": KNeighborsClassifier(n_neighbors=3),
+        "SVM_Linear": SVC(kernel="linear", C=1.0),
+        "SVM_RBF": SVC(kernel="rbf", C=1.0, gamma="scale"),
+        "kNN_3": KNeighborsClassifier(n_neighbors=3),
         "kNN_5": KNeighborsClassifier(n_neighbors=5),
         "NB": GaussianNB(),
         "LDA": LinearDiscriminantAnalysis(),
@@ -84,8 +84,63 @@ def save_json(obj: Dict[str, Any], path: Path):
 
 
 def cross_subject_experiment():
-    pass
+    X, y = load_data()
+    classifiers = load_classifiers()
+
+    out_path = RESULTS_DIR / "cross_subject_channel_results.json"
+
+    results: List[Dict[str, Any]] = []
+
+    # For each channel, do leave-one-subject-out evaluation
+    for ch_idx, ch_name in tqdm(enumerate(CHANNELS)):
+        # LOSOCV
+        for test_subject in range(N_SUBJECTS):
+
+            X_train_list: List[np.ndarray] = []
+            y_train_list: List[np.ndarray] = []
+
+            X_test = None
+            y_test = None
+
+            # Build train/test splits by subject
+            for s in range(N_SUBJECTS):
+                X_sc = X[s, :, :, ch_idx, :].reshape(N_SESSIONS * N_TRIALS, -1)   # (50, n_features)
+                y_sc = y[s, :, :].reshape(N_SESSIONS * N_TRIALS).astype(int)     # (50,)
+
+                if s == test_subject:
+                    X_test = X_sc
+                    y_test = y_sc
+                else:
+                    X_train_list.append(X_sc)
+                    y_train_list.append(y_sc)
+
+            if X_test is None or y_test is None:
+                raise RuntimeError("Failed to create test split. Check subject indexing.")
+
+            X_train = np.concatenate(X_train_list, axis=0)  # (26*50, n_features)
+            y_train = np.concatenate(y_train_list, axis=0)  # (26*50,)
+
+            # Fit/evaluate each classifier on this fold
+            for clf_name, clf in classifiers.items():
+                pipe = Pipeline([
+                    ("scaler", StandardScaler()),
+                    ("clf", clf),
+                ])
+
+                pipe.fit(X_train, y_train)
+                acc = float(pipe.score(X_test, y_test))
+
+                results.append({
+                    "test_subject": int(test_subject + 1),  # held-out subject ID (1-based)
+                    "channel": ch_name,
+                    "classifier": clf_name,
+                    "acc_losocv": acc,
+                })
+
+    save_json(results, out_path)
+    print("Saved JSON to:", out_path.resolve())
 
 
 if __name__ == '__main__':
     subject_dependent_experiment()
+    cross_subject_experiment()
