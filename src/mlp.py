@@ -44,7 +44,7 @@ class MLP(nn.Module):
         return self.net(x)
 
 binaryCrossEntropy = nn.BCEWithLogitsLoss()
-optimizer = torch.optim.Adam(model.parameters(), lr=LR)
+
 
 
 
