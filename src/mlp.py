@@ -100,43 +100,29 @@ def get_loso_split(X, y, test_subject, channel_idx):
     return X_train, y_train, X_test, y_test
 '''
 
-def get_loso_split(X, y, test_subject, channel_idx):
+def get_loso_split(X, y, test_subject):
     X_train, y_train = [], []
     X_test, y_test = [], []
 
     for subj in range(X.shape[0]):
-        # one channel
-        X_subj = X[subj, :, :, channel_idx, :]   # (2,25,16)
-        y_subj = y[subj]                         # (2,25)
-
-        X_flat = X_subj.reshape(-1, 16)          # (50,16)
-        y_flat = y_subj.reshape(-1)              # (50,)
-
-        # SHUFFLE
-        idx = np.random.permutation(len(y_flat))
-        X_flat = X_flat[idx]
-        y_flat = y_flat[idx]
+        # (2,25,5,16) -> (50,5,16)
+        X_subj = X[subj].reshape(2*25, 5, 16)
+        y_subj = y[subj].reshape(2*25)
 
         if subj == test_subject:
-            X_test.append(X_flat)
-            y_test.append(y_flat)
+            X_test.append(X_subj)
+            y_test.append(y_subj)
         else:
-            X_train.append(X_flat)
-            y_train.append(y_flat)
+            X_train.append(X_subj)
+            y_train.append(y_subj)
 
-    X_train = np.vstack(X_train)
-    y_train = np.hstack(y_train)
-    X_test = np.vstack(X_test)
-    y_test = np.hstack(y_test)
+    X_train = np.concatenate(X_train, axis=0)  # (N,5,16)
+    y_train = np.concatenate(y_train, axis=0)
 
-    # standardization (train only)
-    mu = X_train.mean(axis=0, keepdims=True)
-    sd = X_train.std(axis=0, keepdims=True) + 1e-8
-    X_train = (X_train - mu) / sd
-    X_test = (X_test - mu) / sd
+    X_test  = np.concatenate(X_test, axis=0)
+    y_test  = np.concatenate(y_test, axis=0)
 
     return X_train, y_train, X_test, y_test
-
 
 
 
@@ -202,11 +188,21 @@ for channel_idx in range(5):
 
     for test_subject in range(27):
         X_train, y_train, X_test, y_test = get_loso_split(
-            X, y, test_subject, channel_idx
+            Xn, y, test_subject
         )
 
         print(f"Subject {test_subject} label distribution:",
                 np.bincount(y_train.astype(int)))
+
+        # 1) selezione canale
+        X_train_ch = X_train[:, channel_idx, :]  # (N,16)
+        X_test_ch  = X_test[:, channel_idx, :]   # (M,16)
+
+        # 2) shuffle SOLO del training set
+        idx = np.random.permutation(len(y_train))
+        X_train_ch = X_train_ch[idx]
+        y_train    = y_train[idx]
+
 
         neg = (y_train == 0).sum()
         pos = (y_train == 1).sum()
@@ -219,7 +215,7 @@ for channel_idx in range(5):
         criterion = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
 
         train_ds = TensorDataset(
-            torch.tensor(X_train, dtype=torch.float32),
+            torch.tensor(X_train_ch, dtype=torch.float32),
             torch.tensor(y_train, dtype=torch.float32)
         )
         loader = DataLoader(train_ds, batch_size=32, shuffle=True)
@@ -232,7 +228,7 @@ for channel_idx in range(5):
 
         acc = evaluate(
             model,
-            torch.tensor(X_test, dtype=torch.float32),
+            torch.tensor(X_test_ch, dtype=torch.float32),
             torch.tensor(y_test, dtype=torch.float32)
         )
 
