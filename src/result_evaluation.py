@@ -27,13 +27,15 @@ def summarize_subject_dependant_results(df):
     loocv_pivot = df.pivot_table(
         index="subject",
         columns="C",
-        values="LOOCV"
+        values="LOOCV",
+        aggfunc="max"
     )
 
     kfold_pivot = df.pivot_table(
         index="subject",
         columns="C",
-        values="KFold"
+        values="KFold",
+        aggfunc="max"
     )
     loocv_pivot.index = [f"S{int(i)}" for i in loocv_pivot.index]
     kfold_pivot.index = loocv_pivot.index
@@ -92,7 +94,8 @@ def summarize_cross_subject_results(df):
     losocv_pivot = df.pivot_table(
         index="test_subject",
         columns="C",
-        values="LOSOCV"
+        values="LOSOCV",
+        aggfunc="max"
     )
 
     mean_row = losocv_pivot.mean()
