@@ -24,7 +24,7 @@ CHANNELS = ["EEG.AF3", "EEG.T7", "EEG.Pz", "EEG.T8", "EEG.AF4"]
 K_MAX = 10
 M = 2
 N = 2
-R_FACTOR = 0.15
+R_FACTOR = 0.2
 FEATURES_DIM = 1 + K_MAX + 5 # 1 (FE) + 10 (TSMFE) + 5 (HMFE)
 
 def preprocess_data():

@@ -4,6 +4,7 @@ from numpy.typing import NDArray
 from numba import njit, prange
 from math import exp, log
 
+
 @njit
 def fuzzy_sum_chebyshev(slices, n, r):
     K, m = slices.shape
@@ -17,7 +18,7 @@ def fuzzy_sum_chebyshev(slices, n, r):
                 if d > max_diff:
                     max_diff = d
 
-            total += exp(-(max_diff ** n) / r)
+            total += exp(-((max_diff / r) ** n))
 
     return 2.0 * total
 
@@ -40,27 +41,31 @@ def create_slices(channel_data, m):
 
 
 @njit
+def calculate_phi(channel_data, m, n, r):
+    slices = create_slices(channel_data, m)
+    K = slices.shape[0]
+
+    if K < 2:
+        return 0.0
+
+    s = fuzzy_sum_chebyshev(slices, n, r)
+
+    return s / (K * (K - 1))
+
+
+@njit
 def fuzzy_entropy(
     channel_data: NDArray[np.float64],
     r: float,
     m: int = 2,
     n: int = 2
 ):
-    def phi(pattern_length):
-        slices = create_slices(channel_data, pattern_length)
-        K = slices.shape[0]
-
-        if K < 2:
-            return 0.0
-
-        s = fuzzy_sum_chebyshev(slices, n, r)
-        return s / (K * (K - 1))
-
-    phi_m = phi(m)
-    phi_m1 = phi(m + 1)
+    phi_m = calculate_phi(channel_data, m, n, r)    
+    phi_m1 = calculate_phi(channel_data, m + 1, n, r)
 
     if phi_m <= 0 or phi_m1 <= 0:
-        return np.nan
+        print('Returning zero fuzzy entropy')
+        return 0
 
     return log(phi_m) - log(phi_m1)
     
@@ -105,14 +110,6 @@ def hmfe_features(
     wavelet: str = "db4",
     level: int = 4
 ) -> np.ndarray:
-    """
-    Hierarchical Multi-Band Fuzzy Entropy (HMFE)
-
-    Output:
-        [ FE(A_L), FE(D_L), FE(D_{L-1}), ..., FE(D_1) ]
-        -> length = level + 1
-"""
-
     x = np.asarray(channel_data, dtype=np.float64)
     N = x.shape[0]
 
@@ -120,7 +117,7 @@ def hmfe_features(
     if N <= m + 1:
         return np.zeros(level + 1, dtype=np.float64)
 
-    std_x = np.std(x)
+    std_x = np.std(x).item()
     if std_x <= 0:
         std_x = 1e-8
 
@@ -149,7 +146,7 @@ def hmfe_features(
 
     # A_L
     xA = reconstruct_band(True)
-    std_A = np.std(xA)
+    std_A = np.std(xA).item()
     if std_A <= 0:
         std_A = 1e-8
     rA = r * (std_A / std_x)
@@ -182,4 +179,4 @@ def extract_single_channel_features(
     tsmfe = tsmfe_features(channel_data, r, k_max, m, n)    
     hmfe = hmfe_features(channel_data, r, m, n)
     
-    return np.concatenate(([fe], tsmfe, hmfe))
+    return np.concatenate((tsmfe, hmfe, [fe]))

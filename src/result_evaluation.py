@@ -4,7 +4,7 @@ from pathlib import Path
 
 
 BASE_DIR = Path(__file__).parent
-RESULTS_DIR = BASE_DIR / "../results"
+RESULTS_DIR = BASE_DIR / "../results-nostd-bugfix-r0.2"
 SUBJECT_DEPENDANT_RESULTS_PATH = RESULTS_DIR / "subject_dependent_channel_results.json"
 CROSS_SUBJECT_RESULTS_PATH = RESULTS_DIR / "cross_subject_channel_results.json"
 

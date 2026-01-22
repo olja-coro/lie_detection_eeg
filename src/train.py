@@ -13,7 +13,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 BASE_DIR = Path(__file__).parent
-RESULTS_DIR = BASE_DIR / "../results"
+RESULTS_DIR = BASE_DIR / "../results-nostd-bugfix-r0.2"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 CHANNELS = ["EEG.AF3", "EEG.T7", "EEG.Pz", "EEG.T8", "EEG.AF4"]
@@ -123,7 +123,7 @@ def cross_subject_experiment():
             # Fit/evaluate each classifier on this fold
             for clf_name, clf in classifiers.items():
                 pipe = Pipeline([
-                    ("scaler", StandardScaler()),
+                    #("scaler", StandardScaler()),
                     ("clf", clf),
                 ])
 
