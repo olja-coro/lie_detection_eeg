@@ -10,7 +10,7 @@ X = data["X"]   # (subjects, 2, 25, 5, 16)
 y = data["y"]   # (subjects, 2, 25)
 
 BATCH_SIZE = 32
-EPOCHS = 50
+EPOCHS = 60
 LR = 1e-3
 
 
@@ -22,18 +22,50 @@ for subj in range(X.shape[0]):
     Xn[subj] = ((X_flat - mu) / sd).reshape(2,25,5,16)
 
 
-def get_loso_split(X, y, test_subject):
-    X_train, y_train, X_test, y_test = [], [], [], []
+# TEMPORAL FEATURE EXTRACTION
+
+def extract_sequence_features(X_seq):
+    """
+    X_seq: (25, 16)
+    returns: (80,)
+    """
+    t = np.arange(X_seq.shape[0])
+
+    mean = X_seq.mean(axis=0)
+    std  = X_seq.std(axis=0)
+    minv = X_seq.min(axis=0)
+    maxv = X_seq.max(axis=0)
+
+    # linear trend (slope)
+    slope = np.array([
+        np.polyfit(t, X_seq[:,i], 1)[0]
+        for i in range(X_seq.shape[1])
+    ])
+
+    return np.concatenate([mean, std, minv, maxv, slope])
+
+
+def get_loso_sequences_features(X, y, test_subject, channels):
+    X_train, y_train = [], []
+    X_test, y_test = [], []
 
     for subj in range(X.shape[0]):
-        X_subj = X[subj].reshape(50, 5, 16)
-        y_subj = y[subj].reshape(50)
+        X_subj = X[subj][:,:,channels,:]   # (2,25,C,16)
+        y_subj = y[subj][:,0]             # one label per sequence
+
+        feats = []
+        for cls in range(2):
+            # average over channels if more than one
+            X_seq = X_subj[cls].mean(axis=1)  # (25,16)
+            feats.append(extract_sequence_features(X_seq))
+
+        feats = np.stack(feats)  # (2,80)
 
         if subj == test_subject:
-            X_test.append(X_subj)
+            X_test.append(feats)
             y_test.append(y_subj)
         else:
-            X_train.append(X_subj)
+            X_train.append(feats)
             y_train.append(y_subj)
 
     return (
@@ -43,37 +75,13 @@ def get_loso_split(X, y, test_subject):
         np.concatenate(y_test),
     )
 
-
-# SIMPLE MLP
-class MLP_Linear(nn.Module):
-    def __init__(self, in_dim):
-        super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(in_dim, 1)
-        )
-    def forward(self, x):
-        return self.net(x)
-
-# MLP (Linear + ReLU + Linear)
-class MLP_2Layer(nn.Module):
+class MLP(nn.Module):
     def __init__(self, in_dim):
         super().__init__()
         self.net = nn.Sequential(
             nn.Linear(in_dim, 64),
             nn.ReLU(),
-            nn.Linear(64, 1)
-        )
-    def forward(self, x):
-        return self.net(x)
-
-# MLP + LayerNorm (paper-friendly)
-class MLP_LN(nn.Module):
-    def __init__(self, in_dim):
-        super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(in_dim, 64),
-            nn.LayerNorm(64),
-            nn.ReLU(),
+            nn.Dropout(0.2),
             nn.Linear(64, 1)
         )
     def forward(self, x):
@@ -100,26 +108,25 @@ def evaluate(model, X_test, y_test):
     auc = roc_auc_score(y_test.cpu(), probs)
     return acc, auc
 
-
-MODELS = {
-    "Linear": MLP_Linear,
-    "MLP_2Layer": MLP_2Layer,
-    "MLP_LayerNorm": MLP_LN,
+# =========================
+# EXPERIMENT
+# =========================
+CHANNEL_SETS = {
+    "SingleChannel": [0],
+    "Top3Channels": [0,1,2],
 }
 
-for model_name, ModelClass in MODELS.items():
-    print(f"\n===== MODEL: {model_name} =====")
+for name, channels in CHANNEL_SETS.items():
+    print(f"\n===== MLP SEQUENCE FEATURES | {name} =====")
 
     all_acc, all_auc = [], []
 
     for test_subject in range(27):
-        X_train, y_train, X_test, y_test = get_loso_split(Xn, y, test_subject)
+        X_train, y_train, X_test, y_test = get_loso_sequences_features(
+            Xn, y, test_subject, channels
+        )
 
-        # MULTI-CHANNEL INPUT (80)
-        X_train = X_train.reshape(len(X_train), -1)
-        X_test  = X_test.reshape(len(X_test), -1)
-
-        # shuffle train
+        # shuffle training
         idx = np.random.permutation(len(y_train))
         X_train = X_train[idx]
         y_train = y_train[idx]
@@ -130,7 +137,7 @@ for model_name, ModelClass in MODELS.items():
         )
         loader = DataLoader(train_ds, batch_size=BATCH_SIZE, shuffle=True)
 
-        model = ModelClass(X_train.shape[1])
+        model = MLP(X_train.shape[1])
         optimizer = torch.optim.Adam(model.parameters(), lr=LR)
         criterion = nn.BCEWithLogitsLoss()
 
