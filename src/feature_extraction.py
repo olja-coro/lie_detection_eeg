@@ -44,6 +44,7 @@ def preprocess_data():
     expected_rows = PARTECIPANTS * 2
     assert len(df) == expected_rows, f"Reshape is not safe"
 
+    X_raw = np.zeros((PARTECIPANTS, SESSIONS, len(CHANNELS), N_EXPERIMENTS, CHANNEL_POINTS), dtype=np.float64)
     X = np.zeros((PARTECIPANTS, SESSIONS, N_EXPERIMENTS, len(CHANNELS), FEATURES_DIM), dtype=np.float64)
     y = np.zeros((PARTECIPANTS, SESSIONS, N_EXPERIMENTS), dtype=np.float64)
 
@@ -73,12 +74,15 @@ def preprocess_data():
         X[s, sess] = experiment_features
         y[s, sess, :] = int(row.is_truth)
 
+        X_raw[s, sess] = experiment_data
+
     print(f"Created dataset with shape: X={X.shape}, y={y.shape}")
     
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     
     np.savez_compressed(
         OUT_PATH,
+        X_raw=X_raw,
         X=X, # Features: 27 x 2 x 5 x 25 x 384
         y=y, # Labels: 27 x 2 x 25
     )
