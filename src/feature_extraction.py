@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 from numpy.typing import NDArray
-from entropy_features import extract_single_channel_features
+from .entropy_features import extract_single_channel_features
 from functools import partial
 from tqdm import tqdm
 

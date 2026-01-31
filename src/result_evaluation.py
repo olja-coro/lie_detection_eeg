@@ -115,6 +115,6 @@ if __name__ == '__main__':
         df_cs = pd.read_json(CROSS_SUBJECT_RESULTS_PATH)
         print(df_cs.head())
         summarize_subject_dependant_results(df_sd)
-        summarize_best_channels(df_sd, "LDA")
+        summarize_best_channels(df_sd, "SVM_Linear")
 
         summarize_cross_subject_results(df_cs)
