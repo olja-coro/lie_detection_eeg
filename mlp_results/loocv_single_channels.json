@@ -1,0 +1,4187 @@
+[
+  {
+    "subject": "S01",
+    "combo": "C1",
+    "acc": 0.6
+  },
+  {
+    "subject": "S02",
+    "combo": "C1",
+    "acc": 0.94
+  },
+  {
+    "subject": "S03",
+    "combo": "C1",
+    "acc": 0.5
+  },
+  {
+    "subject": "S04",
+    "combo": "C1",
+    "acc": 0.76
+  },
+  {
+    "subject": "S05",
+    "combo": "C1",
+    "acc": 0.44
+  },
+  {
+    "subject": "S06",
+    "combo": "C1",
+    "acc": 0.52
+  },
+  {
+    "subject": "S07",
+    "combo": "C1",
+    "acc": 0.78
+  },
+  {
+    "subject": "S08",
+    "combo": "C1",
+    "acc": 0.74
+  },
+  {
+    "subject": "S09",
+    "combo": "C1",
+    "acc": 0.9
+  },
+  {
+    "subject": "S10",
+    "combo": "C1",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "C1",
+    "acc": 0.7
+  },
+  {
+    "subject": "S12",
+    "combo": "C1",
+    "acc": 0.6
+  },
+  {
+    "subject": "S13",
+    "combo": "C1",
+    "acc": 0.78
+  },
+  {
+    "subject": "S14",
+    "combo": "C1",
+    "acc": 0.36
+  },
+  {
+    "subject": "S15",
+    "combo": "C1",
+    "acc": 0.46
+  },
+  {
+    "subject": "S16",
+    "combo": "C1",
+    "acc": 0.66
+  },
+  {
+    "subject": "S17",
+    "combo": "C1",
+    "acc": 0.56
+  },
+  {
+    "subject": "S18",
+    "combo": "C1",
+    "acc": 0.68
+  },
+  {
+    "subject": "S19",
+    "combo": "C1",
+    "acc": 0.62
+  },
+  {
+    "subject": "S20",
+    "combo": "C1",
+    "acc": 0.5
+  },
+  {
+    "subject": "S21",
+    "combo": "C1",
+    "acc": 0.64
+  },
+  {
+    "subject": "S22",
+    "combo": "C1",
+    "acc": 0.74
+  },
+  {
+    "subject": "S23",
+    "combo": "C1",
+    "acc": 0.4
+  },
+  {
+    "subject": "S24",
+    "combo": "C1",
+    "acc": 0.62
+  },
+  {
+    "subject": "S25",
+    "combo": "C1",
+    "acc": 0.92
+  },
+  {
+    "subject": "S26",
+    "combo": "C1",
+    "acc": 0.4
+  },
+  {
+    "subject": "S27",
+    "combo": "C1",
+    "acc": 0.84
+  },
+  {
+    "subject": "S01",
+    "combo": "C2",
+    "acc": 0.74
+  },
+  {
+    "subject": "S02",
+    "combo": "C2",
+    "acc": 0.88
+  },
+  {
+    "subject": "S03",
+    "combo": "C2",
+    "acc": 0.58
+  },
+  {
+    "subject": "S04",
+    "combo": "C2",
+    "acc": 0.88
+  },
+  {
+    "subject": "S05",
+    "combo": "C2",
+    "acc": 0.74
+  },
+  {
+    "subject": "S06",
+    "combo": "C2",
+    "acc": 0.44
+  },
+  {
+    "subject": "S07",
+    "combo": "C2",
+    "acc": 0.82
+  },
+  {
+    "subject": "S08",
+    "combo": "C2",
+    "acc": 0.62
+  },
+  {
+    "subject": "S09",
+    "combo": "C2",
+    "acc": 0.98
+  },
+  {
+    "subject": "S10",
+    "combo": "C2",
+    "acc": 0.52
+  },
+  {
+    "subject": "S11",
+    "combo": "C2",
+    "acc": 0.52
+  },
+  {
+    "subject": "S12",
+    "combo": "C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S13",
+    "combo": "C2",
+    "acc": 0.56
+  },
+  {
+    "subject": "S14",
+    "combo": "C2",
+    "acc": 0.74
+  },
+  {
+    "subject": "S15",
+    "combo": "C2",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "C2",
+    "acc": 0.4
+  },
+  {
+    "subject": "S17",
+    "combo": "C2",
+    "acc": 0.52
+  },
+  {
+    "subject": "S18",
+    "combo": "C2",
+    "acc": 0.78
+  },
+  {
+    "subject": "S19",
+    "combo": "C2",
+    "acc": 0.56
+  },
+  {
+    "subject": "S20",
+    "combo": "C2",
+    "acc": 0.46
+  },
+  {
+    "subject": "S21",
+    "combo": "C2",
+    "acc": 0.6
+  },
+  {
+    "subject": "S22",
+    "combo": "C2",
+    "acc": 0.88
+  },
+  {
+    "subject": "S23",
+    "combo": "C2",
+    "acc": 0.54
+  },
+  {
+    "subject": "S24",
+    "combo": "C2",
+    "acc": 0.72
+  },
+  {
+    "subject": "S25",
+    "combo": "C2",
+    "acc": 0.8
+  },
+  {
+    "subject": "S26",
+    "combo": "C2",
+    "acc": 0.82
+  },
+  {
+    "subject": "S27",
+    "combo": "C2",
+    "acc": 0.62
+  },
+  {
+    "subject": "S01",
+    "combo": "C3",
+    "acc": 0.48
+  },
+  {
+    "subject": "S02",
+    "combo": "C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S03",
+    "combo": "C3",
+    "acc": 0.6
+  },
+  {
+    "subject": "S04",
+    "combo": "C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S05",
+    "combo": "C3",
+    "acc": 0.46
+  },
+  {
+    "subject": "S06",
+    "combo": "C3",
+    "acc": 0.62
+  },
+  {
+    "subject": "S07",
+    "combo": "C3",
+    "acc": 0.62
+  },
+  {
+    "subject": "S08",
+    "combo": "C3",
+    "acc": 0.54
+  },
+  {
+    "subject": "S09",
+    "combo": "C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S10",
+    "combo": "C3",
+    "acc": 0.76
+  },
+  {
+    "subject": "S11",
+    "combo": "C3",
+    "acc": 0.5
+  },
+  {
+    "subject": "S12",
+    "combo": "C3",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S14",
+    "combo": "C3",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S16",
+    "combo": "C3",
+    "acc": 0.58
+  },
+  {
+    "subject": "S17",
+    "combo": "C3",
+    "acc": 0.7
+  },
+  {
+    "subject": "S18",
+    "combo": "C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S19",
+    "combo": "C3",
+    "acc": 0.46
+  },
+  {
+    "subject": "S20",
+    "combo": "C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S21",
+    "combo": "C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S22",
+    "combo": "C3",
+    "acc": 0.92
+  },
+  {
+    "subject": "S23",
+    "combo": "C3",
+    "acc": 0.54
+  },
+  {
+    "subject": "S24",
+    "combo": "C3",
+    "acc": 0.64
+  },
+  {
+    "subject": "S25",
+    "combo": "C3",
+    "acc": 0.96
+  },
+  {
+    "subject": "S26",
+    "combo": "C3",
+    "acc": 0.72
+  },
+  {
+    "subject": "S27",
+    "combo": "C3",
+    "acc": 0.84
+  },
+  {
+    "subject": "S01",
+    "combo": "C4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S02",
+    "combo": "C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S03",
+    "combo": "C4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S05",
+    "combo": "C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S06",
+    "combo": "C4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S07",
+    "combo": "C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S08",
+    "combo": "C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S09",
+    "combo": "C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S10",
+    "combo": "C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S11",
+    "combo": "C4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S12",
+    "combo": "C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S13",
+    "combo": "C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S14",
+    "combo": "C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S15",
+    "combo": "C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S16",
+    "combo": "C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S17",
+    "combo": "C4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S18",
+    "combo": "C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S19",
+    "combo": "C4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S20",
+    "combo": "C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S21",
+    "combo": "C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S22",
+    "combo": "C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S23",
+    "combo": "C4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S24",
+    "combo": "C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S25",
+    "combo": "C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S26",
+    "combo": "C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S27",
+    "combo": "C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S01",
+    "combo": "C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S02",
+    "combo": "C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S03",
+    "combo": "C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S04",
+    "combo": "C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S05",
+    "combo": "C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S06",
+    "combo": "C5",
+    "acc": 0.5
+  },
+  {
+    "subject": "S07",
+    "combo": "C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S08",
+    "combo": "C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S09",
+    "combo": "C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S10",
+    "combo": "C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S11",
+    "combo": "C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S12",
+    "combo": "C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S13",
+    "combo": "C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S14",
+    "combo": "C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S15",
+    "combo": "C5",
+    "acc": 0.42
+  },
+  {
+    "subject": "S16",
+    "combo": "C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S17",
+    "combo": "C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S18",
+    "combo": "C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S19",
+    "combo": "C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S20",
+    "combo": "C5",
+    "acc": 0.38
+  },
+  {
+    "subject": "S21",
+    "combo": "C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S23",
+    "combo": "C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S24",
+    "combo": "C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S25",
+    "combo": "C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S26",
+    "combo": "C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S27",
+    "combo": "C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2",
+    "acc": 0.96
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2",
+    "acc": 0.62
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2",
+    "acc": 0.98
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2",
+    "acc": 0.82
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2",
+    "acc": 1.0
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2",
+    "acc": 0.84
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2",
+    "acc": 0.96
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2",
+    "acc": 0.88
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2",
+    "acc": 1.0
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2",
+    "acc": 1.0
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2",
+    "acc": 0.98
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2",
+    "acc": 0.98
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2",
+    "acc": 1.0
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2",
+    "acc": 0.88
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2",
+    "acc": 0.94
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2",
+    "acc": 0.9
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2",
+    "acc": 0.88
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2",
+    "acc": 0.96
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2",
+    "acc": 0.98
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2",
+    "acc": 0.78
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2",
+    "acc": 0.92
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C3",
+    "acc": 0.98
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C3",
+    "acc": 0.98
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C3",
+    "acc": 0.94
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C3",
+    "acc": 0.94
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C3",
+    "acc": 0.98
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C3",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C3",
+    "acc": 0.96
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C3",
+    "acc": 0.94
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C3",
+    "acc": 0.98
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C3",
+    "acc": 0.92
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C3",
+    "acc": 0.96
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C3",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C4",
+    "acc": 0.98
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C4",
+    "acc": 0.98
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C4",
+    "acc": 0.98
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C5",
+    "acc": 0.38
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C5",
+    "acc": 0.32
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C5",
+    "acc": 0.36
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C5",
+    "acc": 0.32
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C5",
+    "acc": 0.34
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C5",
+    "acc": 0.34
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C5",
+    "acc": 0.5
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C5",
+    "acc": 0.9
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C3",
+    "acc": 0.48
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C3",
+    "acc": 0.58
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C3",
+    "acc": 0.88
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C3",
+    "acc": 0.84
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C3",
+    "acc": 0.7
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C3",
+    "acc": 0.62
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C3",
+    "acc": 0.78
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C3",
+    "acc": 0.94
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C3",
+    "acc": 0.84
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C3",
+    "acc": 0.76
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C3",
+    "acc": 0.34
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C3",
+    "acc": 0.74
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C3",
+    "acc": 0.5
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C3",
+    "acc": 0.94
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C3",
+    "acc": 0.94
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C3",
+    "acc": 0.64
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C3",
+    "acc": 0.62
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C3",
+    "acc": 0.68
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C4",
+    "acc": 0.98
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S01",
+    "combo": "C3+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S02",
+    "combo": "C3+C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "C3+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S04",
+    "combo": "C3+C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S05",
+    "combo": "C3+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S06",
+    "combo": "C3+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S07",
+    "combo": "C3+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S08",
+    "combo": "C3+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S09",
+    "combo": "C3+C4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S10",
+    "combo": "C3+C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S11",
+    "combo": "C3+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S12",
+    "combo": "C3+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C3+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S14",
+    "combo": "C3+C4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "C3+C4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S16",
+    "combo": "C3+C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S17",
+    "combo": "C3+C4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S18",
+    "combo": "C3+C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S19",
+    "combo": "C3+C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S20",
+    "combo": "C3+C4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S21",
+    "combo": "C3+C4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S22",
+    "combo": "C3+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S23",
+    "combo": "C3+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S24",
+    "combo": "C3+C4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S25",
+    "combo": "C3+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S26",
+    "combo": "C3+C4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S27",
+    "combo": "C3+C4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S01",
+    "combo": "C3+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S02",
+    "combo": "C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S03",
+    "combo": "C3+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S04",
+    "combo": "C3+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S05",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S06",
+    "combo": "C3+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S07",
+    "combo": "C3+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S08",
+    "combo": "C3+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S09",
+    "combo": "C3+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S10",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S11",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S12",
+    "combo": "C3+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S14",
+    "combo": "C3+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S15",
+    "combo": "C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S16",
+    "combo": "C3+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S17",
+    "combo": "C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S18",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S19",
+    "combo": "C3+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S20",
+    "combo": "C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S21",
+    "combo": "C3+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S22",
+    "combo": "C3+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S23",
+    "combo": "C3+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S24",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S25",
+    "combo": "C3+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C3+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S27",
+    "combo": "C3+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S01",
+    "combo": "C4+C5",
+    "acc": 0.9
+  },
+  {
+    "subject": "S02",
+    "combo": "C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S03",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S04",
+    "combo": "C4+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S05",
+    "combo": "C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S06",
+    "combo": "C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S07",
+    "combo": "C4+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S08",
+    "combo": "C4+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S09",
+    "combo": "C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S10",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S11",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S12",
+    "combo": "C4+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S13",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S14",
+    "combo": "C4+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S15",
+    "combo": "C4+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S16",
+    "combo": "C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S17",
+    "combo": "C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S18",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S19",
+    "combo": "C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S20",
+    "combo": "C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S21",
+    "combo": "C4+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S22",
+    "combo": "C4+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S23",
+    "combo": "C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S24",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S25",
+    "combo": "C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S26",
+    "combo": "C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S27",
+    "combo": "C4+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C3",
+    "acc": 0.72
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C3",
+    "acc": 0.82
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C3",
+    "acc": 0.78
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C3",
+    "acc": 0.88
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C3",
+    "acc": 0.84
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C3",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C3",
+    "acc": 0.84
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C3",
+    "acc": 0.7
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C3",
+    "acc": 0.78
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C3",
+    "acc": 0.7
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C3",
+    "acc": 0.74
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C3",
+    "acc": 0.52
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C3",
+    "acc": 0.78
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C3",
+    "acc": 0.78
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C3",
+    "acc": 0.86
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C3",
+    "acc": 0.9
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C3",
+    "acc": 0.8
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C3",
+    "acc": 0.78
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C5",
+    "acc": 0.42
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C3+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C3+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C3+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C3+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C3+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C3+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C3+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C3+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C3+C4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C3+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C3+C4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C3+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C3+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C3+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C3+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C3+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C3+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C3+C4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C3+C4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C3+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C3+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C3+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C3+C5",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C3+C5",
+    "acc": 0.32
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C3+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C3+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C3+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C3+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C3+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C3+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C3+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C3+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C3+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C3+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C3+C5",
+    "acc": 0.42
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C3+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C3+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C3+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C3+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C3+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C3+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C3+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C3+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C3+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C4+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C4+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C4+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C4+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C4+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C4+C5",
+    "acc": 0.5
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C4+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C4+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C4+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C3+C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C3+C4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C3+C4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C3+C4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C3+C4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C3+C4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C3+C4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C3+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C3+C4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C3+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C3+C4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C3+C4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C3+C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C3+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C3+C4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C3+C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C3+C4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C3+C4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C3+C4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C3+C4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C3+C4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C3+C4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C3+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C3+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C3+C4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C3+C4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C3+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C3+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C3+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C3+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C3+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C3+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C3+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C3+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C3+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C3+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C3+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C3+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C3+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C3+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C3+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C3+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C3+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C3+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C3+C5",
+    "acc": 0.9
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C3+C5",
+    "acc": 0.9
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C3+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C3+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C3+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C4+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C4+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C4+C5",
+    "acc": 1.0
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C4+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C4+C5",
+    "acc": 0.9
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S01",
+    "combo": "C3+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S02",
+    "combo": "C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S03",
+    "combo": "C3+C4+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S04",
+    "combo": "C3+C4+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S05",
+    "combo": "C3+C4+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S06",
+    "combo": "C3+C4+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S07",
+    "combo": "C3+C4+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S08",
+    "combo": "C3+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S09",
+    "combo": "C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S10",
+    "combo": "C3+C4+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S11",
+    "combo": "C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S12",
+    "combo": "C3+C4+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S13",
+    "combo": "C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S14",
+    "combo": "C3+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S15",
+    "combo": "C3+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S16",
+    "combo": "C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S17",
+    "combo": "C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S18",
+    "combo": "C3+C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S19",
+    "combo": "C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S20",
+    "combo": "C3+C4+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S21",
+    "combo": "C3+C4+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S22",
+    "combo": "C3+C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S23",
+    "combo": "C3+C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S24",
+    "combo": "C3+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S25",
+    "combo": "C3+C4+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S26",
+    "combo": "C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S27",
+    "combo": "C3+C4+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.92
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C3+C4",
+    "acc": 1.0
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C3+C4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.86
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.5
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C3+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.42
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.98
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.38
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.82
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.36
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C4+C5",
+    "acc": 0.42
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.34
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.34
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.88
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.58
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.34
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C3+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S01",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S02",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S04",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S05",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S06",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S07",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S08",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.96
+  },
+  {
+    "subject": "S09",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S10",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S11",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S12",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.78
+  },
+  {
+    "subject": "S13",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S14",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S15",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S16",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S17",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S18",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.92
+  },
+  {
+    "subject": "S19",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S20",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S21",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S22",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.94
+  },
+  {
+    "subject": "S23",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.64
+  },
+  {
+    "subject": "S24",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.7
+  },
+  {
+    "subject": "S25",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.76
+  },
+  {
+    "subject": "S26",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S27",
+    "combo": "C2+C3+C4+C5",
+    "acc": 0.66
+  },
+  {
+    "subject": "S01",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.34
+  },
+  {
+    "subject": "S02",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S04",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.4
+  },
+  {
+    "subject": "S05",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.36
+  },
+  {
+    "subject": "S06",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S07",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.38
+  },
+  {
+    "subject": "S08",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.8
+  },
+  {
+    "subject": "S09",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S10",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S11",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.5
+  },
+  {
+    "subject": "S12",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S13",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.5
+  },
+  {
+    "subject": "S14",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.6
+  },
+  {
+    "subject": "S15",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S16",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.62
+  },
+  {
+    "subject": "S17",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.48
+  },
+  {
+    "subject": "S18",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.84
+  },
+  {
+    "subject": "S19",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S20",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.46
+  },
+  {
+    "subject": "S21",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.56
+  },
+  {
+    "subject": "S23",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.68
+  },
+  {
+    "subject": "S24",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.74
+  },
+  {
+    "subject": "S25",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.72
+  },
+  {
+    "subject": "S26",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.44
+  },
+  {
+    "subject": "S27",
+    "combo": "C1+C2+C3+C4+C5",
+    "acc": 0.52
+  }
+]
