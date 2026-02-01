@@ -1,9 +1,10 @@
-import numpy as np
-from feature_extraction import load_data
-from typing import Dict, List, Tuple, Any
+import itertools
 import json
-from tqdm import tqdm
 from pathlib import Path
+from typing import Dict, Any, List, Tuple
+
+import numpy as np
+from tqdm import tqdm
 from sklearn.model_selection import LeaveOneOut, StratifiedKFold, cross_val_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
@@ -12,29 +13,23 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
+from feature_extraction import load_data
+
+# Config
+
 BASE_DIR = Path(__file__).parent
-RESULTS_DIR = BASE_DIR / "../results-concatenated"
+RESULTS_DIR = BASE_DIR / "../results-ml"
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
-
-# Best channels found by average (from subject-dependent ranking)
-BEST_CHANNELS = ["EEG.T8", "EEG.Pz", "EEG.T7"]  # puoi ridurre a 2 se vuoi
-
-# to apply standardization
-USE_STANDARDIZATION = True   
-
-
-
 
 CHANNELS = ["EEG.AF3", "EEG.T7", "EEG.Pz", "EEG.T8", "EEG.AF4"]
 N_SUBJECTS = 27
 N_SESSIONS = 2
 N_TRIALS = 25
-
 RANDOM_STATE = 42
 
-BEST_CH_IDX = [CHANNELS.index(ch) for ch in BEST_CHANNELS]
+USE_STANDARDIZATION = False
+
 def load_classifiers() -> Dict[str, object]:
-    # initialize classifiers
     return {
         "SVM_Linear": SVC(kernel="linear", C=1.0),
         "SVM_RBF": SVC(kernel="rbf", C=1.0, gamma="scale"),
@@ -43,214 +38,152 @@ def load_classifiers() -> Dict[str, object]:
         "NB": GaussianNB(),
         "LDA": LinearDiscriminantAnalysis(),
     }
-'''
-def subject_dependent_experiment():
-    X, y = load_data()
 
-    classifiers = load_classifiers()
-
-    out_path = RESULTS_DIR / "subject_dependent_channel_results.json"
-
-    # Cross Validation
-    loo = LeaveOneOut()
-    skf10 = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_STATE)
-    
-    results: List[Dict[str, Any]] = []
-
-    #iterate over subjects and channels
-    for s in range(N_SUBJECTS):
-        for ch_idx, ch_name in tqdm(
-            list(enumerate(CHANNELS)),
-            desc=f"Channels (S{s+1})",
-            leave=False
-        ):
-            X_sc = X[s, :, :, ch_idx, :].reshape(N_SESSIONS * N_TRIALS, -1)
-            y_sc = y[s, :, :].reshape(N_SESSIONS * N_TRIALS).astype(int)
-
-            for clf_name, clf in classifiers.items():
-                # Standardize features for SVM/kNN/LDA stability
-                pipe = Pipeline([
-                    ("scaler", StandardScaler()),
-                    ("clf", clf),
-                ])
-
-                acc_loo = cross_val_score(pipe, X_sc, y_sc, cv=loo, scoring="accuracy").mean()
-                acc_10f = cross_val_score(pipe, X_sc, y_sc, cv=skf10, scoring="accuracy").mean()
-
-                results.append({
-                    "subject": s + 1,
-                    "channel": ch_name,
-                    "classifier": clf_name,
-                    "acc_loocv": acc_loo,
-                    "acc_10fold": acc_10f,
-                })
-
-    save_json(results, out_path)
-    print("Saved JSON to:", out_path.resolve())
-'''
-def subject_dependent_experiment():
-    X, y = load_data()
-    classifiers = load_classifiers()
-
-    std_tag = "std" if USE_STANDARDIZATION else "nostd"
-    out_path = RESULTS_DIR / f"subject_dependent_concat_{std_tag}.json"
-
-
-
-    loo = LeaveOneOut()
-    skf10 = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_STATE)
-
-    results: List[Dict[str, Any]] = []
-
-    for s in range(N_SUBJECTS):
-
-        # select + concatenate best channels
-        X_sc = X[s, :, :, BEST_CH_IDX, :]  
-        # shape: (sessions, trials, K, features)
-
-        X_sc = X_sc.reshape(N_SESSIONS * N_TRIALS, -1)
-        y_sc = y[s].reshape(N_SESSIONS * N_TRIALS).astype(int)
-
-        for clf_name, clf in classifiers.items():
-
-            steps = []
-            if USE_STANDARDIZATION:
-                steps.append(("scaler", StandardScaler()))
-            steps.append(("clf", clf))
-
-            pipe = Pipeline(steps)
-
-            acc_loo = cross_val_score(pipe, X_sc, y_sc, cv=loo, scoring="accuracy").mean()
-            acc_10f = cross_val_score(pipe, X_sc, y_sc, cv=skf10, scoring="accuracy").mean()
-
-            results.append({
-                "subject": s + 1,
-                "channels": BEST_CHANNELS,
-                "classifier": clf_name,
-                "acc_loocv": acc_loo,
-                "acc_10fold": acc_10f,
-                "standardized": USE_STANDARDIZATION,
-            })
-
-    save_json(results, out_path)
-    print("Saved JSON to:", out_path.resolve())
-
-
-def save_json(obj: Dict[str, Any], path: Path):
+def save_json(obj: Dict[str, Any], path: Path) -> None:
     with path.open("w", encoding="utf-8") as f:
         json.dump(obj, f, indent=2, sort_keys=False)
 
-'''
-def cross_subject_experiment():
+
+def all_channel_combos(n_channels: int) -> List[Tuple[int, ...]]:
+    combos: List[Tuple[int, ...]] = []
+    for r in range(1, n_channels + 1):
+        combos.extend(itertools.combinations(range(n_channels), r))
+    return combos
+
+
+def combo_key(combo: Tuple[int, ...]) -> str:
+    # Stable, readable key like: EEG.T7+EEG.Pz
+    return "+".join(CHANNELS[i] for i in combo)
+
+
+def build_pipeline(clf) -> Pipeline:
+    steps = []
+    if USE_STANDARDIZATION:
+        steps.append(("scaler", StandardScaler()))
+    steps.append(("clf", clf))
+    return Pipeline(steps)
+
+
+def flatten_subject_combo(X: np.ndarray, y: np.ndarray, subj: int, combo: Tuple[int, ...]) -> Tuple[np.ndarray, np.ndarray]:
+    """
+    X shape: (subjects, sessions, trials, channels, features)
+    y shape: (subjects, sessions, trials)
+
+    Returns:
+      X_flat: (sessions*trials, len(combo)*features)
+      y_flat: (sessions*trials,)
+    """
+    X_sc = X[subj, :, :, combo, :]          # (sessions, trials, K, features)
+    X_flat = X_sc.reshape(N_SESSIONS * N_TRIALS, -1)
+    y_flat = y[subj].reshape(N_SESSIONS * N_TRIALS).astype(int)
+    return X_flat, y_flat
+
+
+def summarize_per_subject(per_subject: List[float]) -> Dict[str, Any]:
+    arr = np.array(per_subject, dtype=float)
+    return {
+        "mean": float(arr.mean()),
+        "std": float(arr.std(ddof=1)) if arr.size > 1 else 0.0,
+        "per_subject": [float(x) for x in arr.tolist()],
+    }
+
+
+
+# Subject-dependent: evaluate all combos
+
+def subject_dependent_all_combos() -> None:
     X, y = load_data()
     classifiers = load_classifiers()
 
-    out_path = RESULTS_DIR / "cross_subject_channel_results.json"
+    loo = LeaveOneOut()
+    skf10 = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_STATE)
 
-    results: List[Dict[str, Any]] = []
+    combos = all_channel_combos(len(CHANNELS))
 
-    # For each channel, do leave-one-subject-out evaluation
-    for ch_idx, ch_name in tqdm(enumerate(CHANNELS)):
-        # LOSOCV
-        for test_subject in range(N_SUBJECTS):
+    std_tag = "std" if USE_STANDARDIZATION else "nostd"
+    out_path = RESULTS_DIR / f"subject_dependent_allcombos_{std_tag}.json"
 
-            X_train_list: List[np.ndarray] = []
-            y_train_list: List[np.ndarray] = []
+    # results[combo_key][clf_name] = {"LOOCV": {...}, "KFold10": {...}}
+    results: Dict[str, Dict[str, Any]] = {}
 
-            X_test = None
-            y_test = None
+    for combo in tqdm(combos, desc="Subject-dependent combos"):
+        ck = combo_key(combo)
+        results[ck] = {}
 
-            # Build train/test splits by subject
+        for clf_name, clf in classifiers.items():
+            pipe = build_pipeline(clf)
+
+            per_subj_loo: List[float] = []
+            per_subj_10f: List[float] = []
+
             for s in range(N_SUBJECTS):
-                X_sc = X[s, :, :, ch_idx, :].reshape(N_SESSIONS * N_TRIALS, -1)   # (50, n_features)
-                y_sc = y[s, :, :].reshape(N_SESSIONS * N_TRIALS).astype(int)     # (50,)
+                X_flat, y_flat = flatten_subject_combo(X, y, s, combo)
 
-                if s == test_subject:
-                    X_test = X_sc
-                    y_test = y_sc
-                else:
-                    X_train_list.append(X_sc)
-                    y_train_list.append(y_sc)
+                acc_loo = cross_val_score(pipe, X_flat, y_flat, cv=loo, scoring="accuracy").mean()
+                acc_10f = cross_val_score(pipe, X_flat, y_flat, cv=skf10, scoring="accuracy").mean()
 
-            if X_test is None or y_test is None:
-                raise RuntimeError("Failed to create test split. Check subject indexing.")
+                per_subj_loo.append(float(acc_loo))
+                per_subj_10f.append(float(acc_10f))
 
-            X_train = np.concatenate(X_train_list, axis=0)  # (26*50, n_features)
-            y_train = np.concatenate(y_train_list, axis=0)  # (26*50,)
+            results[ck][clf_name] = {
+                "LOOCV": summarize_per_subject(per_subj_loo),
+                "KFold10": summarize_per_subject(per_subj_10f),
+            }
 
-            # Fit/evaluate each classifier on this fold
-            for clf_name, clf in classifiers.items():
-                pipe = Pipeline([
-                    #("scaler", StandardScaler()),
-                    ("clf", clf),
-                ])
+    save_json(results, out_path)
+    print("Saved JSON to:", out_path.resolve())
+
+
+
+# Cross-subject LOSO: evaluate all combos
+
+def cross_subject_loso_all_combos() -> None:
+    X, y = load_data()
+    classifiers = load_classifiers()
+
+    combos = all_channel_combos(len(CHANNELS))
+
+    std_tag = "std" if USE_STANDARDIZATION else "nostd"
+    out_path = RESULTS_DIR / f"cross_subject_loso_allcombos_{std_tag}.json"
+
+    # results[combo_key][clf_name] = {"mean":..., "std":..., "per_subject":[acc for each held-out subject]}
+    results: Dict[str, Dict[str, Any]] = {}
+
+    for combo in tqdm(combos, desc="Cross-subject combos"):
+        ck = combo_key(combo)
+        results[ck] = {}
+
+        for clf_name, clf in classifiers.items():
+            pipe = build_pipeline(clf)
+
+            per_test_subject: List[float] = []
+
+            for test_subject in range(N_SUBJECTS):
+                X_train_list, y_train_list = [], []
+                X_test, y_test = None, None
+
+                for s in range(N_SUBJECTS):
+                    X_flat, y_flat = flatten_subject_combo(X, y, s, combo)
+
+                    if s == test_subject:
+                        X_test, y_test = X_flat, y_flat
+                    else:
+                        X_train_list.append(X_flat)
+                        y_train_list.append(y_flat)
+
+                X_train = np.concatenate(X_train_list, axis=0)
+                y_train = np.concatenate(y_train_list, axis=0)
 
                 pipe.fit(X_train, y_train)
                 acc = float(pipe.score(X_test, y_test))
+                per_test_subject.append(acc)
 
-                results.append({
-                    "test_subject": int(test_subject + 1),  # held-out subject ID (1-based)
-                    "channel": ch_name,
-                    "classifier": clf_name,
-                    "acc_losocv": acc,
-                })
-
-    save_json(results, out_path)
-    print("Saved JSON to:", out_path.resolve())
-'''
-
-def cross_subject_experiment():
-    X, y = load_data()
-    classifiers = load_classifiers()
-
-    std_tag = "std" if USE_STANDARDIZATION else "nostd"
-    out_path = RESULTS_DIR / f"cross_subject_concat_{std_tag}.json"
-
-    results: List[Dict[str, Any]] = []
-
-    for test_subject in range(N_SUBJECTS):
-
-        X_train_list, y_train_list = [], []
-        X_test, y_test = None, None
-
-        for s in range(N_SUBJECTS):
-
-            X_sc = X[s, :, :, BEST_CH_IDX, :].reshape(N_SESSIONS * N_TRIALS, -1)
-            y_sc = y[s].reshape(N_SESSIONS * N_TRIALS).astype(int)
-
-            if s == test_subject:
-                X_test, y_test = X_sc, y_sc
-            else:
-                X_train_list.append(X_sc)
-                y_train_list.append(y_sc)
-
-        X_train = np.concatenate(X_train_list)
-        y_train = np.concatenate(y_train_list)
-
-        for clf_name, clf in classifiers.items():
-
-            steps = []
-            if USE_STANDARDIZATION:
-                steps.append(("scaler", StandardScaler()))
-            steps.append(("clf", clf))
-
-            pipe = Pipeline(steps)
-
-            pipe.fit(X_train, y_train)
-            acc = float(pipe.score(X_test, y_test))
-
-            results.append({
-                "test_subject": test_subject + 1,
-                "channels": BEST_CHANNELS,
-                "classifier": clf_name,
-                "acc_losocv": acc,
-                "standardized": USE_STANDARDIZATION,
-            })
+            results[ck][clf_name] = summarize_per_subject(per_test_subject)
 
     save_json(results, out_path)
     print("Saved JSON to:", out_path.resolve())
 
 
-if __name__ == '__main__':
-    subject_dependent_experiment()
-    cross_subject_experiment()
+if __name__ == "__main__":
+    subject_dependent_all_combos()
+    cross_subject_loso_all_combos()
