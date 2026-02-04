@@ -1,0 +1,4187 @@
+[
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3",
+    "acc": 0.4
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3",
+    "acc": 0.68
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3",
+    "acc": 0.32
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3",
+    "acc": 0.34
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3",
+    "acc": 0.38
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3",
+    "acc": 0.72
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3",
+    "acc": 0.6
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3",
+    "acc": 0.6
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3",
+    "acc": 0.54
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3",
+    "acc": 0.44
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3",
+    "acc": 0.42
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3",
+    "acc": 0.56
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3",
+    "acc": 0.66
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3",
+    "acc": 0.38
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3",
+    "acc": 0.34
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3",
+    "acc": 0.5
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3",
+    "acc": 0.54
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3",
+    "acc": 0.42
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3",
+    "acc": 0.56
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3",
+    "acc": 0.54
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3",
+    "acc": 0.36
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3",
+    "acc": 0.44
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3",
+    "acc": 0.76
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3",
+    "acc": 0.42
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3",
+    "acc": 0.42
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3",
+    "acc": 0.48
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7",
+    "acc": 0.28
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7",
+    "acc": 0.48
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7",
+    "acc": 0.3
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7",
+    "acc": 0.62
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7",
+    "acc": 0.56
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7",
+    "acc": 0.32
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7",
+    "acc": 0.64
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7",
+    "acc": 0.4
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7",
+    "acc": 0.96
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7",
+    "acc": 0.62
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7",
+    "acc": 0.3
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7",
+    "acc": 0.92
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7",
+    "acc": 0.74
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7",
+    "acc": 0.54
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7",
+    "acc": 0.46
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7",
+    "acc": 0.32
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7",
+    "acc": 0.5
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7",
+    "acc": 0.44
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7",
+    "acc": 0.62
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7",
+    "acc": 0.46
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7",
+    "acc": 0.44
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7",
+    "acc": 0.42
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7",
+    "acc": 0.3
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7",
+    "acc": 0.44
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7",
+    "acc": 0.52
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7",
+    "acc": 0.54
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7",
+    "acc": 0.42
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.Pz",
+    "acc": 0.22
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.Pz",
+    "acc": 0.32
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.Pz",
+    "acc": 0.32
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.Pz",
+    "acc": 0.58
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.Pz",
+    "acc": 0.34
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.Pz",
+    "acc": 0.88
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.Pz",
+    "acc": 0.46
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.Pz",
+    "acc": 0.32
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.Pz",
+    "acc": 0.9
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.Pz",
+    "acc": 0.5
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.Pz",
+    "acc": 0.64
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.Pz",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.Pz",
+    "acc": 0.32
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.Pz",
+    "acc": 0.46
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.Pz",
+    "acc": 0.56
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.Pz",
+    "acc": 0.44
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.Pz",
+    "acc": 0.56
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.Pz",
+    "acc": 0.42
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T8",
+    "acc": 0.9
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T8",
+    "acc": 0.7
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T8",
+    "acc": 0.72
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T8",
+    "acc": 0.72
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T8",
+    "acc": 0.28
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T8",
+    "acc": 0.76
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF4",
+    "acc": 0.2
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.28
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.56
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.32
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.58
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.4
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.78
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.54
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.84
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.26
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.84
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.72
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.46
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.32
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.54
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.56
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.54
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.44
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.46
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.36
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.5
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.48
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.44
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7",
+    "acc": 0.36
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.18
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.36
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.74
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.58
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.9
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.26
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.6
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.5
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.42
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.58
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.34
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.5
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.32
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.82
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.7
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.68
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.68
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.26
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.48
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.38
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.7
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.24
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.96
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.86
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.68
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.24
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.56
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.42
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.48
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.34
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.48
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.56
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.76
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.58
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.26
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.7
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 1.0
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.8
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.28
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.28
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.88
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.22
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.84
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.94
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.32
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.74
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.68
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.3
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.Pz+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.18
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.24
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.Pz+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.22
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.34
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.42
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.28
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.62
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.44
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.94
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.5
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.24
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.76
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.68
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.6
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.56
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.34
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.42
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.54
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.52
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.46
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.44
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.28
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.58
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.6
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.76
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.4
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz",
+    "acc": 0.3
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.3
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.7
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.66
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.68
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.86
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.32
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.82
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.72
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.86
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.24
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.66
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.24
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.84
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.26
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.66
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.68
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.28
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8",
+    "acc": 0.32
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.Pz+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.76
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.34
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.2
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 1.0
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.3
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.76
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.66
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.62
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.52
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.54
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.8
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.4
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.86
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.24
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.8
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.94
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.24
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.26
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.38
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.5
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.3
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.6
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.46
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.98
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.22
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.66
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.44
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.58
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.48
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.56
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.64
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.78
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.42
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8",
+    "acc": 0.36
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.22
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.78
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.66
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.28
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.82
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.T8+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.88
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.44
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.36
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.24
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.96
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.22
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.68
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.7
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.58
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.72
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.32
+  },
+  {
+    "subject": "S01",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.3
+  },
+  {
+    "subject": "S02",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S03",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S04",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.38
+  },
+  {
+    "subject": "S05",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.5
+  },
+  {
+    "subject": "S06",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.42
+  },
+  {
+    "subject": "S07",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S08",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S09",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.9
+  },
+  {
+    "subject": "S10",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.62
+  },
+  {
+    "subject": "S11",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.34
+  },
+  {
+    "subject": "S12",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S13",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.64
+  },
+  {
+    "subject": "S14",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.56
+  },
+  {
+    "subject": "S15",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S16",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.46
+  },
+  {
+    "subject": "S17",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S18",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S19",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.6
+  },
+  {
+    "subject": "S20",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S21",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S22",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  },
+  {
+    "subject": "S23",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.48
+  },
+  {
+    "subject": "S24",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.54
+  },
+  {
+    "subject": "S25",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.74
+  },
+  {
+    "subject": "S26",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.52
+  },
+  {
+    "subject": "S27",
+    "combo": "EEG.AF3+EEG.T7+EEG.Pz+EEG.T8+EEG.AF4",
+    "acc": 0.4
+  }
+]
